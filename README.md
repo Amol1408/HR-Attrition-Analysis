@@ -1,34 +1,69 @@
-# HR Employee Attrition Analysis
+# HR Attrition Analysis Dashboard
 
-## Project Overview
-This project analyzes employee attrition data to identify key factors influencing employee turnover in an organization.
+## Overview
+This project analyzes employee attrition data to identify the major factors affecting employee turnover. The goal is to help HR teams understand why employees leave and support better retention strategies.
 
-## Tools Used
-- MySQL
+## Objective
+- Analyze attrition trends across departments, age groups, job roles, and salary levels
+- Identify key drivers of employee resignation
+- Build an interactive dashboard for HR decision-making
+
+## Tools & Technologies
 - Power BI
+- Excel / CSV
+- Data Cleaning
+- Data Visualization
 
-## Key Metrics
+## Dataset
+The dataset contains employee-related information such as:
+- Age
+- Department
+- Job Role
+- Monthly Income
+- Years at Company
+- Job Satisfaction
+- Attrition Status
+
+## Project Workflow
+1. Imported employee dataset
+2. Cleaned and reviewed data for consistency
+3. Created calculated fields and KPIs
+4. Built dashboard visuals to track attrition patterns
+5. Derived business insights and recommendations
+
+## Key KPIs
 - Total Employees
-- Employees Left
+- Total Attrition
 - Attrition Rate
 - Average Age
+- Average Monthly Income
+- Average Years at Company
 
-## Analysis Performed
+## Dashboard Highlights
 - Attrition by Department
-- Attrition by Age Group
 - Attrition by Job Role
-- Attrition by Salary
-- Attrition by Gender
-- Attrition by Overtime
+- Attrition by Age Group
+- Attrition by Salary Slab
+- Attrition by Years at Company
+- Gender-wise Attrition Analysis
 
-## Insights
-- Research & Development department shows the highest attrition.
-- Employees with lower salaries tend to leave more frequently.
-- Employees working overtime show higher attrition probability.
-- Most attrition occurs in the 20–40 age group.
+## Key Insights
+- Attrition is higher in certain departments and job roles
+- Employees with lower salary slabs show higher attrition
+- Early-tenure employees are more likely to leave
+- Job satisfaction and work experience influence attrition trends
 
-## Dashboard Preview
-(Add dashboard screenshot here)
+## Business Recommendations
+- Improve retention plans for high-risk departments
+- Review compensation for lower salary bands
+- Strengthen onboarding and early employee engagement
+- Monitor satisfaction and workload regularly
 
-## Author
-Amol Kumar
+## Files in this Repository
+- `HR_Attrition_Data.csv`
+- `HR ANALYSIS.pdf`
+- `HR_Attrition_Dashboard.pbix`
+- `README.md`
+
+## Conclusion
+This project demonstrates how HR analytics can be used to reduce employee attrition and improve workforce planning through data-driven insights.
